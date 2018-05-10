@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{6bc7d4c2-fc2b-4d35-85fa-86459e018396}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{819b866a-6111-408e-8d8f-83bfa8f8834d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{409aa257-5556-44b1-8f36-617fbd77097b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{f40f7103-84ab-4280-826b-e207e1846234}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="callbacks.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="compress.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="host.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="packet.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="peer.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="unix.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enet\callbacks.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\enet.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\list.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\protocol.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\time.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\types.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\unix.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\utility.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

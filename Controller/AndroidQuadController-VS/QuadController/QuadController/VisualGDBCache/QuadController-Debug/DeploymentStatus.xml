@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ApkDeploymentStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ApkFile>C:\Users\alenl\Desktop\Controller\AndroidQuadController\bin\MainActivity-debug.apk</ApkFile>
+  <DeviceID>08a10b6c0de43668</DeviceID>
+  <ApkTimestamp>2014-09-16T11:54:07.7954537+02:00</ApkTimestamp>
+  <LastDeployment>2014-09-16T11:54:08.8902325+02:00</LastDeployment>
+</ApkDeploymentStatus>

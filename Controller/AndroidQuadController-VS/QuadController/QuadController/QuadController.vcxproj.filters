@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{b2e8b990-0bf5-449b-b0bc-f5ba7581f86c}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{966759de-c809-41bb-8325-d005f8112b6e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{c2bbbca5-9b41-47cb-99d4-3c05d9666d2f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\ImageProc">
+      <UniqueIdentifier>{fb51843c-3e21-4b06-ad0f-1b923782274a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\libenet">
+      <UniqueIdentifier>{9203ccde-d110-48a7-b62e-5ff549be9db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\libenet\enet">
+      <UniqueIdentifier>{c8143cc6-2520-43aa-a43c-2bd7d898863c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\libjpeg">
+      <UniqueIdentifier>{aa1528f5-a403-470c-b6ac-b04645a69e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\QuadController">
+      <UniqueIdentifier>{ffcdcf2a-aa89-4bef-8b65-767d72c81baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ImageProc">
+      <UniqueIdentifier>{4817fb06-2a1e-4f35-ad9c-b6cfe5d22796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\libenet">
+      <UniqueIdentifier>{46bf51a7-d64c-4a87-8170-fb1844d29505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\libenet\enet">
+      <UniqueIdentifier>{60f6a10b-dcdd-4c40-a59d-1a70883d2c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\libjpeg">
+      <UniqueIdentifier>{01052ab5-e33b-4aaf-b75b-a4daada4978e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\QuadController">
+      <UniqueIdentifier>{09f7c65b-ba1b-4078-8a3f-bc679c9fee74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files">
+      <UniqueIdentifier>{6309ed19-9296-4221-af14-fd90f4ac4348}</UniqueIdentifier>
+      <Extensions>*.java</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files\si">
+      <UniqueIdentifier>{1d6cfa20-2d94-46a4-8c21-aa6de652f7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\si\komp">
+      <UniqueIdentifier>{b7be6548-de6f-4075-afba-abc2ecb58bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\si\komp\quadcontroller">
+      <UniqueIdentifier>{10ab3680-0313-457d-910c-7ff99c5c5db7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\AndroidQuadController\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\AndroidQuadController\jni\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\Application.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\ImageProc\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\libenet\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\libjpeg\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\QuadController\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllActivity.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment1.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment2.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment3.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\MainActivity.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\MjpegInputStream.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\MjpegView.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\QuadConnector.java">
+      <Filter>Java Source Files\si\komp\quadcontroller</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\ImageProc\ImageProc.c">
+      <Filter>Source files\ImageProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\callbacks.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\compress.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\host.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\list.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\packet.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\peer.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\protocol.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\unix.c">
+      <Filter>Source files\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\ansi2knr.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\cdjpeg.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\cjpeg.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\ckconfig.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\djpeg.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\example.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jaricom.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcapimin.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcapistd.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcarith.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jccoefct.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jccolor.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcdctmgr.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jchuff.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcinit.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcmainct.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcmarker.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcmaster.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcomapi.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcparam.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcprepct.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcsample.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jctrans.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdapimin.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdapistd.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdarith.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdatadst.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdatasrc.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdcoefct.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdcolor.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jddctmgr.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdhuff.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdinput.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmainct.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmarker.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmaster.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmerge.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdpostct.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdsample.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdtrans.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jerror.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jfdctflt.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jfdctfst.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jfdctint.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jidctflt.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jidctfst.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jidctint.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemansi.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemdos.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemmac.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemmgr.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemname.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemnobs.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jpegtran.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jquant1.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jquant2.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jutils.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdbmp.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdcolmap.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdgif.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdjpgcom.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdppm.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdrle.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdswitch.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdtarga.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\transupp.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrbmp.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrgif.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrjpgcom.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrppm.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrrle.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrtarga.c">
+      <Filter>Source files\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\QuadController\QuadController.cpp">
+      <Filter>Source files\QuadController</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\ImageProc\ImageProc.h">
+      <Filter>Header files\ImageProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\callbacks.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\enet.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\list.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\protocol.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\time.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\types.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\unix.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\utility.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\win32.h">
+      <Filter>Header files\libenet\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\cdjpeg.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jconfig.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jdct.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jerror.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jinclude.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemsys.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jmorecfg.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jpegint.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jpeglib.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jversion.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\transupp.h">
+      <Filter>Header files\libjpeg</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

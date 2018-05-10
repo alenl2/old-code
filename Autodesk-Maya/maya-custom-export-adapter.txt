@@ -1,0 +1,9 @@
+import maya.cmds as mc
+f = open("e:/export/00.txt","w+")
+
+for i in range(1,722):
+    mc.currentTime(i)
+    sel = mc.ls (sl=1, l=1)
+    rot = mc.xform (sel[0], query=True, translation=True, worldSpace=True)
+    f.write(str([int(rot[0]*100),int(rot[2]*100)])+",")
+f.close()

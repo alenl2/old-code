@@ -1,0 +1,21 @@
+import maya.cmds as cmd
+
+fileF = open("F:/test.txt")
+file = []
+for line in fileF:
+    file.append(line)
+	
+fileF.close()
+
+loc = cmd.spaceLocator() 
+for i in file:
+    resW = res[0]
+    resH = res[1]
+    obj = i.replace("\r\n", "").split(" ")
+    x = float(obj[1])
+    y = float(obj[2])
+    #nX = (((x*resW*resH)/(1040*resW)*(resW/resH))+(resW-resH)/2)-(resW/2)+320
+    #nY = ((y*resH)/1080)-(resH/2)+240
+    cmd.move(x ,z ,0, loc)
+    #cmd.scale(50,50,50,loc)
+    cmd.setKeyframe(loc, time=obj[0])

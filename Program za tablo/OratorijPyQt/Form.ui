@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Alen</author>
+ <class>prijaveForm</class>
+ <widget class="QMainWindow" name="prijaveForm">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1227</width>
+    <height>789</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Prijave</string>
+  </property>
+  <widget class="QWidget" name="prijaveWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="PrijaveGB">
+      <property name="title">
+       <string>PRIJAVE</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="5" column="0">
+        <widget class="QLabel" name="delavnicaLabel">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>DELAVNICA:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <layout class="QGridLayout" name="prijaveGridLayout">
+         <item row="1" column="0">
+          <widget class="QCommandLinkButton" name="delavniceButton">
+           <property name="text">
+            <string>Delavnice</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QCommandLinkButton" name="bazenButon">
+           <property name="text">
+            <string>Bazen</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QCommandLinkButton" name="izletButton">
+           <property name="text">
+            <string>Izlet</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QCommandLinkButton" name="extraButton">
+           <property name="text">
+            <string>Extra</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QCommandLinkButton" name="majiceButton">
+           <property name="text">
+            <string>Majice</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QCommandLinkButton" name="skupineButton">
+           <property name="text">
+            <string>Skupine</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="kodaLabel">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>KODA:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="koda">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QDateTimeEdit" name="datupPrijav">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QComboBox" name="izborDelavnice">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="modelColumn">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="prijaveDneLabel">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>PRIJAVE DNE:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="status">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>NALAGAM</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="pReset">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>RESET</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="2">
+        <widget class="QPushButton" name="showGui">
+         <property name="text">
+          <string>Prikaži vsa okna</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="QTreeWidget" name="prijave">
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="allColumnsShowFocus">
+          <bool>true</bool>
+         </property>
+         <attribute name="headerCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="headerDefaultSectionSize">
+          <number>100</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string notr="true">Št.</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Nov stolpec</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Ime</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Starost</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Tip prjave</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Prijava</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QDockWidget" name="delavniceDock">
+   <property name="windowTitle">
+    <string>   Delavnice</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="dDockContent">
+    <layout class="QGridLayout" name="gridLayout_16">
+     <item row="0" column="2" rowspan="2" colspan="2">
+      <layout class="QFormLayout" name="dInputLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+       <property name="horizontalSpacing">
+        <number>0</number>
+       </property>
+       <property name="verticalSpacing">
+        <number>5</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="didLabel">
+         <property name="text">
+          <string>DID:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="did">
+         <property name="maximum">
+          <number>999999999</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="dImeLabel">
+         <property name="text">
+          <string>Ime:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="dIme">
+         <property name="maxLength">
+          <number>100</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="dmaxPrijav">
+         <property name="text">
+          <string>Max Prijav:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="dMax"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="dStarostOdLabel">
+         <property name="text">
+          <string>Starost OD:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <layout class="QGridLayout" name="delavniceGrid">
+         <item row="0" column="1">
+          <widget class="QLabel" name="doLabel">
+           <property name="text">
+            <string>DO:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QSpinBox" name="dOd"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QSpinBox" name="dDo"/>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="dProsotrLabel">
+         <property name="text">
+          <string>Prostor:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="dProstor"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="dOpombeLabel">
+         <property name="text">
+          <string>Opombe:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <layout class="QGridLayout" name="doGridLayout">
+         <item row="0" column="0">
+          <widget class="QTextBrowser" name="dOpombe">
+           <property name="maximumSize">
+            <size>
+             <width>150</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="6" column="0">
+        <widget class="QCheckBox" name="dVec">
+         <property name="text">
+          <string>Večkrat</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <layout class="QGridLayout" name="delavniceButtons">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="dBrisi">
+           <property name="text">
+            <string>Briši</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="dShrani">
+           <property name="text">
+            <string>Shrani</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <widget class="QTreeWidget" name="delavnice">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="indentation">
+        <number>0</number>
+       </property>
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+       <column>
+        <property name="text">
+         <string>Št.</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Ime</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Max prijav</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Min starost</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Max starost</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Prostor</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Večkrat</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Stanje</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="podatkiDock">
+   <property name="windowTitle">
+    <string>   Podatki</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="pDockContent">
+    <layout class="QGridLayout" name="gridLayout_19">
+     <item row="1" column="0">
+      <layout class="QGridLayout" name="pButtonLayout">
+       <item row="1" column="2">
+        <widget class="QPushButton" name="pShrani">
+         <property name="text">
+          <string>Shrani</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="pBrisi">
+         <property name="text">
+          <string>Briši</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0">
+      <widget class="QTreeWidget" name="otroci">
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="indentation">
+        <number>0</number>
+       </property>
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="allColumnsShowFocus">
+        <bool>true</bool>
+       </property>
+       <column>
+        <property name="text">
+         <string>Št.</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Ime</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Priimek</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Starost</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="pLayout">
+       <item row="2" column="2">
+        <layout class="QFormLayout" name="pStarosSkupinaLayout">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+         </property>
+         <item row="0" column="0">
+          <widget class="QSpinBox" name="pStarost"/>
+         </item>
+         <item row="0" column="1">
+          <layout class="QFormLayout" name="pSkupinaLAyout">
+           <property name="fieldGrowthPolicy">
+            <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="pSkupinaLabel">
+             <property name="text">
+              <string>Skupina:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="pSkupina">
+             <property name="editable">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="2">
+        <layout class="QFormLayout" name="pImePriimeklayout">
+         <item row="0" column="0">
+          <widget class="QLineEdit" name="pIme">
+           <property name="maxLength">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <layout class="QFormLayout" name="pPriimekLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="pPriimekLabel">
+             <property name="text">
+              <string>Priimek: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="pPriimek">
+             <property name="maxLength">
+              <number>100</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="6" column="2">
+        <layout class="QGridLayout" name="pCheckLayout">
+         <item row="1" column="1">
+          <widget class="QCheckBox" name="pPrijavnica">
+           <property name="text">
+            <string>Prijavnica</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QCheckBox" name="pMajica">
+           <property name="text">
+            <string>Majica</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="6">
+          <widget class="QCheckBox" name="pExtra">
+           <property name="text">
+            <string>Extra</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QCheckBox" name="pBazen">
+           <property name="text">
+            <string>Bazen</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QCheckBox" name="pIzlet">
+           <property name="text">
+            <string>Izlet</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="pKontakt">
+         <property name="maxLength">
+          <number>100</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="pOidLabel">
+         <property name="text">
+          <string>OID:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <layout class="QFormLayout" name="pNaslovPostaLayout">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLineEdit" name="pPosta">
+           <property name="maxLength">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <layout class="QFormLayout" name="pNaslovLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="pNaslovLabel">
+             <property name="text">
+              <string>Naslov: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="pNaslov">
+             <property name="maxLength">
+              <number>100</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="pImeLabel">
+         <property name="text">
+          <string>Ime:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="pKontaktLabel">
+         <property name="text">
+          <string>Kontakti:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="pStarostLabel">
+         <property name="text">
+          <string>Starost:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="pPostaLabel">
+         <property name="text">
+          <string>Pošta:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QCheckBox" name="pPlacano">
+         <property name="text">
+          <string>Plačano</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="pOpombeLabel">
+         <property name="text">
+          <string>Opombe:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <layout class="QGridLayout" name="poGridLayout">
+         <item row="0" column="0">
+          <widget class="QTextBrowser" name="pOpombe">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>58</height>
+            </size>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="2">
+        <widget class="QSpinBox" name="oid">
+         <property name="maximum">
+          <number>999999999</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="animatorjiDock">
+   <property name="windowTitle">
+    <string>   Animatorji</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="aDockContent">
+    <layout class="QGridLayout" name="gridLayout_12">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="animatorji">
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="indentation">
+        <number>0</number>
+       </property>
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="allColumnsShowFocus">
+        <bool>true</bool>
+       </property>
+       <column>
+        <property name="text">
+         <string>Št.</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Ime</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Priimek</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Skupina</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Delavnica</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QFrame" name="aLayout">
+       <property name="maximumSize">
+        <size>
+         <width>244</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_11">
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QFormLayout" name="aFrameLayout">
+          <property name="fieldGrowthPolicy">
+           <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="aidLabel">
+            <property name="text">
+             <string>AID:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="aImeLabel">
+            <property name="text">
+             <string>Ime:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="aIme">
+            <property name="maxLength">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="aPriimekLabel">
+            <property name="text">
+             <string>Priimek:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="aPriimek">
+            <property name="maxLength">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="aSkupinaLabel">
+            <property name="text">
+             <string>Skupina:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QComboBox" name="aSkupina"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="aDelavnicaLabel">
+            <property name="text">
+             <string>Delavnica:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QComboBox" name="aDelavnica"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="aOpombeLabel">
+            <property name="text">
+             <string>Opombe:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <layout class="QGridLayout" name="aoGridLayout">
+            <item row="0" column="0">
+             <widget class="QTextBrowser" name="aOpombe">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="aid">
+            <property name="maximum">
+             <number>999999999</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <layout class="QGridLayout" name="buttonLayout">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="aBrisi">
+            <property name="text">
+             <string>Briši</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="aShrani">
+            <property name="text">
+             <string>Shrani</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="nastavitveDock">
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="features">
+    <set>QDockWidget::AllDockWidgetFeatures</set>
+   </property>
+   <property name="windowTitle">
+    <string>   Nastavitve</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="nDockContents">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QProgressBar" name="progressBar">
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_31">
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Prijavljenih:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLCDNumber" name="lcdNumber">
+       <property name="smallDecimalPoint">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="skupineDock">
+   <property name="windowTitle">
+    <string>   Skupine</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="sDockContent">
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_10">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="skupine">
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::SingleSelection</enum>
+       </property>
+       <property name="indentation">
+        <number>0</number>
+       </property>
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="animated">
+        <bool>false</bool>
+       </property>
+       <property name="allColumnsShowFocus">
+        <bool>false</bool>
+       </property>
+       <column>
+        <property name="text">
+         <string>Št.</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Ime</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Prostor</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Stanje</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QFrame" name="sFrame">
+       <property name="minimumSize">
+        <size>
+         <width>212</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>241</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QFormLayout" name="sLayout">
+          <property name="fieldGrowthPolicy">
+           <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="sidLabel">
+            <property name="text">
+             <string>SID:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="sImeLabel">
+            <property name="text">
+             <string>Ime:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="skIme">
+            <property name="maxLength">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="sProstorLabel">
+            <property name="text">
+             <string>Prostor:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="skProstor">
+            <property name="maxLength">
+             <number>32767</number>
+            </property>
+            <property name="readOnly">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="sOpombeLabel">
+            <property name="text">
+             <string>Opombe:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <layout class="QGridLayout" name="soGridLayout">
+            <item row="0" column="0">
+             <widget class="QTextBrowser" name="sOpombe">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="sid">
+            <property name="maximum">
+             <number>999999999</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <layout class="QGridLayout" name="sButtonLayout">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="sBrisi">
+            <property name="text">
+             <string>Briši</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="sShrani">
+            <property name="text">
+             <string>Shrani</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

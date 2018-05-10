@@ -1,0 +1,72 @@
+#!/bin/bash
+
+while true ; do
+   if ifconfig wlan0 | grep -q "inet addr:" ; then
+      sleep 1
+   else
+      echo "Network connection down! Attempting reconnection."
+      ifup --force wlan0
+      sleep 5
+   fi
+done
+
+
+
+auto lo
+
+iface lo inet loopback
+iface eth0 inet static
+address 192.168.1.67
+netmask 255.255.255.0
+gateway 192.168.1.1
+
+allow-hotplug wlan0
+auto wlan0
+iface wlan0 inet static
+        address 192.168.1.77
+        netmask 255.255.255.0
+        gateway 192.168.1.1
+        wpa-ssid "QuadCopter :)"
+        wpa-psk "admin515175"
+
+#allow-hotplug wlan0
+#iface wlan0 inet manual
+#wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+
+iface default inet dhcp
+
+
+
+
+
+
+
+
+
+
+#! /bin/sh
+# /etc/init.d/blah
+#
+
+# Some things that run always
+touch /var/lock/blah
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting script blah "
+    /root/Controller &
+    /root/forceWifi.sh &
+    ;;
+  stop)
+    kill `pidof Controller`
+    pkill forceWifi.sh
+    echo "Stopping script blah"
+    ;;
+  *)
+    echo "Usage: /etc/init.d/blah {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

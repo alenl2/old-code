@@ -1,0 +1,34 @@
+#PRIJAVE
+#vsak nov dan reset prijav
+#prijave omejit najmlajše, veèkratna prijva, starost, polna delavnica
+#preverjanje v katerih delavnicih je bil
+#preverjanje današje delevnice/sprememba
+#vzporedne prijave
+#izbere delavnico, skupino in animatorje otroka
+#iskalnik v koda baru
+#play sound on login
+#prijave in slika from webcam
+
+#EXCEL MYSQL PRINT
+#tiskanje izkaznic logo skupin slike animatorjev
+#tiskanje animatorjev delavnic skupin udeležencov preko tabov zgoraj
+#excel to mysql
+#mysql to excel
+#tiskanje imena(slike) delavnic za na tablo
+#mxsql command print
+#spremenit font za print
+#TISKANJE VEDNO ALI NA TISKALNIK, FILE(excel,pdf) ŠE PRED TEM PA NA SCREEN
+#TISKANJE TO HTML
+#vsak calass nej ima funkcijo to excell
+#v sqlite se shranijo nastavitve lahko se pa uporablja za primarno bazo
+#backupanje baz!!!!
+#xml data for database
+
+#GUI
+#use tab widget v nastavitvah print tab
+#mysql connect na zaèetki
+#exta gui za drug monitor
+#prijavljenih x OD y + progress bar
+#vse poimenovat v desingerju, dotat tooltipe, help
+#email/telefon/naslov/pošta? za animatorje
+#sprememba keya posodobi vse foren keya

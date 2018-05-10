@@ -1,0 +1,30 @@
+import maya.cmds as cmd
+
+resExport = [[320,240],[480,320],[640,480],[720,480],[960,600],[1024,720],[1280,800],[1427,924],[1920,1080],[1920,1200],[2048,1536],[2560,1600]]
+#resExport = [[320,240]]
+
+fileF = open("F:/test.txt")
+file = []
+for line in fileF:
+    file.append(line)
+    
+for res in resExport:
+    out = []
+    loc = cmd.spaceLocator() 
+    write = open("F:/res-"+str(res[0])+".txt","a+")   
+    for i in file:
+        resW = res[0]
+        resH = res[1]
+        obj = i.replace("\r\n", "").split(" ")
+        x = float(obj[1])
+        y = float(obj[2])
+        nX = (((x*resW*resH)/(1040*resW)*(resW/resH))+(resW-resH)/2)-(resW/2)+320
+        nY = ((y*resH)/1080)-(resH/2)+240
+        cmd.move(nX ,nY ,0, loc)
+        cmd.scale(50,50,50,loc)
+        cmd.setKeyframe(loc, time=obj[0])
+        out.append([[nX],[nY]])
+                
+write.write(str(out))
+write.close()
+fileF.close()

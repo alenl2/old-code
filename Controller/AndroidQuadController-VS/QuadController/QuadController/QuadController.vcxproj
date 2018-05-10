@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EEBEFE02-394B-4015-8954-018D83BE6EFA}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeIncludeSearchPath>C:\android-ndk-r10b\platforms\android-9\arch-mips\usr\include;C:\android-ndk-r10b\toolchains\mipsel-linux-android-4.6\prebuilt\windows-x86_64\lib\gcc\mipsel-linux-android\4.6\include;C:\android-ndk-r10b\toolchains\mipsel-linux-android-4.6\prebuilt\windows-x86_64\lib\gcc\mipsel-linux-android\4.6\include-fixed;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeOutput>$(ProjectDir)QuadController-Debug.vgdbsettings</NMakeOutput>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeIncludeSearchPath>C:\android-ndk-r10b\platforms\android-9\arch-mips\usr\include;C:\android-ndk-r10b\toolchains\mipsel-linux-android-4.6\prebuilt\windows-x86_64\lib\gcc\mipsel-linux-android\4.6\include;C:\android-ndk-r10b\toolchains\mipsel-linux-android-4.6\prebuilt\windows-x86_64\lib\gcc\mipsel-linux-android\4.6\include-fixed;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeOutput>$(ProjectDir)QuadController-Release.vgdbsettings</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\AndroidQuadController\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\AndroidQuadController\jni\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\Application.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\ImageProc\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\libenet\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\libjpeg\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\jni\QuadController\Android.mk" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllActivity.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment1.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment2.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\ControllFragment3.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\MainActivity.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\MjpegInputStream.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\MjpegView.java" />
+    <None Include="..\..\..\AndroidQuadController\src\si\komp\quadcontroller\QuadConnector.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\ImageProc\ImageProc.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\callbacks.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\compress.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\host.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\list.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\packet.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\peer.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\protocol.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libenet\unix.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\ansi2knr.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\cdjpeg.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\cjpeg.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\ckconfig.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\djpeg.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\example.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jaricom.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcapimin.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcapistd.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcarith.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jccoefct.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jccolor.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcdctmgr.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jchuff.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcinit.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcmainct.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcmarker.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcmaster.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcomapi.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcparam.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcprepct.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jcsample.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jctrans.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdapimin.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdapistd.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdarith.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdatadst.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdatasrc.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdcoefct.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdcolor.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jddctmgr.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdhuff.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdinput.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmainct.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmarker.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmaster.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdmerge.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdpostct.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdsample.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jdtrans.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jerror.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jfdctflt.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jfdctfst.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jfdctint.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jidctflt.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jidctfst.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jidctint.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemansi.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemdos.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemmac.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemmgr.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemname.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemnobs.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jpegtran.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jquant1.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jquant2.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\jutils.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdbmp.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdcolmap.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdgif.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdjpgcom.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdppm.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdrle.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdswitch.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\rdtarga.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\transupp.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrbmp.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrgif.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrjpgcom.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrppm.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrrle.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\libjpeg\wrtarga.c" />
+    <ClCompile Include="..\..\..\AndroidQuadController\jni\QuadController\QuadController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\ImageProc\ImageProc.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\callbacks.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\enet.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\list.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\protocol.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\time.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\types.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\unix.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\utility.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libenet\enet\win32.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\cdjpeg.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jconfig.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jdct.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jerror.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jinclude.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jmemsys.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jmorecfg.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jpegint.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jpeglib.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\jversion.h" />
+    <ClInclude Include="..\..\..\AndroidQuadController\jni\libjpeg\transupp.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

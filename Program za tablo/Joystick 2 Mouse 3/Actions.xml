@@ -1,0 +1,350 @@
+<Actions >
+	<VKActions >
+		<VKAction theme = "Mouse" name = "Left Mouse Button" type = "Hold" value = "0x1" />
+		<VKAction theme = "Mouse" name = "Right Mouse Button" type = "Hold" value = "0x2" />
+		<VKAction theme = "Mouse" name = "Middle Mouse Button" type = "Hold" value = "0x4" />
+		<VKAction theme = "Mouse" name = "X Buton 1 Click" type = "Hold" value = "0x5" />
+		<VKAction theme = "Mouse" name = "X Buton 2 Click" type = "Hold" value = "0x6" />
+		<VKAction theme = "Keyboard keys" name = "Control-Break" type = "Hold" value = "0x3" />
+		<VKAction theme = "Keyboard keys" name = "Backspace" type = "Hold" value = "0x8" />
+		<VKAction theme = "Keyboard keys" name = "Tab" type = "Hold" value = "0x9" />
+		<VKAction theme = "Keyboard keys" name = "Clear" type = "Hold" value = "0xc" />
+		<VKAction theme = "Keyboard keys" name = "Enter" type = "Hold" value = "0xd" />
+		<VKAction theme = "Keyboard keys" name = "Shift" type = "Hold" value = "0x10" />
+		<VKAction theme = "Keyboard keys" name = "Control" type = "Hold" value = "0x11" />
+		<VKAction theme = "Keyboard keys" name = "Alt" type = "Hold" value = "0x12" />
+		<VKAction theme = "Keyboard keys" name = "Pause" type = "Hold" value = "0x13" />
+		<VKAction theme = "Keyboard keys" name = "Caps Lock" type = "Hold" value = "0x14" />
+		<VKAction theme = "Keyboard keys" name = "Escape" type = "Hold" value = "0x1b" />
+		<VKAction theme = "Keyboard keys" name = "Space" type = "Hold" value = "0x20" />
+		<VKAction theme = "Keyboard keys" name = "Page Up" type = "Hold" value = "0x21" />
+		<VKAction theme = "Keyboard keys" name = "Page Down" type = "Hold" value = "0x22" />
+		<VKAction theme = "Keyboard keys" name = "End" type = "Hold" value = "0x23" />
+		<VKAction theme = "Keyboard keys" name = "Home" type = "Hold" value = "0x24" />
+		<VKAction theme = "Keyboard keys" name = "Left Arrow" type = "Hold" value = "0x25" />
+		<VKAction theme = "Keyboard keys" name = "Up Arrow" type = "Hold" value = "0x26" />
+		<VKAction theme = "Keyboard keys" name = "Right Arrow" type = "Hold" value = "0x27" />
+		<VKAction theme = "Keyboard keys" name = "Down Arrow" type = "Hold" value = "0x28" />
+		<VKAction theme = "Keyboard keys" name = "Print Screen" type = "Hold" value = "0x2c" />
+		<VKAction theme = "Keyboard keys" name = "Insert" type = "Hold" value = "0x2d" />
+		<VKAction theme = "Keyboard keys" name = "Delete" type = "Hold" value = "0x2e" />
+		<VKAction theme = "Keyboard numbers" name = "0 Key" type = "Hold" value = "0x30" />
+		<VKAction theme = "Keyboard numbers" name = "1 Key" type = "Hold" value = "0x31" />
+		<VKAction theme = "Keyboard numbers" name = "2 Key" type = "Hold" value = "0x32" />
+		<VKAction theme = "Keyboard numbers" name = "3 Key" type = "Hold" value = "0x33" />
+		<VKAction theme = "Keyboard numbers" name = "4 Key" type = "Hold" value = "0x34" />
+		<VKAction theme = "Keyboard numbers" name = "5 Key" type = "Hold" value = "0x35" />
+		<VKAction theme = "Keyboard numbers" name = "6 Key" type = "Hold" value = "0x36" />
+		<VKAction theme = "Keyboard numbers" name = "7 Key" type = "Hold" value = "0x37" />
+		<VKAction theme = "Keyboard numbers" name = "8 Key" type = "Hold" value = "0x38" />
+		<VKAction theme = "Keyboard numbers" name = "9 Key" type = "Hold" value = "0x39" />
+		<VKAction theme = "Keyboard letters" name = "a Key" type = "Hold" value = "0x41" />
+		<VKAction theme = "Keyboard letters" name = "b Key" type = "Hold" value = "0x42" />
+		<VKAction theme = "Keyboard letters" name = "c Key" type = "Hold" value = "0x43" />
+		<VKAction theme = "Keyboard letters" name = "d Key" type = "Hold" value = "0x44" />
+		<VKAction theme = "Keyboard letters" name = "e Key" type = "Hold" value = "0x45" />
+		<VKAction theme = "Keyboard letters" name = "f Key" type = "Hold" value = "0x46" />
+		<VKAction theme = "Keyboard letters" name = "g Key" type = "Hold" value = "0x47" />
+		<VKAction theme = "Keyboard letters" name = "h Key" type = "Hold" value = "0x48" />
+		<VKAction theme = "Keyboard letters" name = "i Key" type = "Hold" value = "0x49" />
+		<VKAction theme = "Keyboard letters" name = "j Key" type = "Hold" value = "0x4a" />
+		<VKAction theme = "Keyboard letters" name = "k Key" type = "Hold" value = "0x4b" />
+		<VKAction theme = "Keyboard letters" name = "l Key" type = "Hold" value = "0x4c" />
+		<VKAction theme = "Keyboard letters" name = "m Key" type = "Hold" value = "0x4d" />
+		<VKAction theme = "Keyboard letters" name = "n Key" type = "Hold" value = "0x4e" />
+		<VKAction theme = "Keyboard letters" name = "o Key" type = "Hold" value = "0x4f" />
+		<VKAction theme = "Keyboard letters" name = "p Key" type = "Hold" value = "0x50" />
+		<VKAction theme = "Keyboard letters" name = "q Key" type = "Hold" value = "0x51" />
+		<VKAction theme = "Keyboard letters" name = "r Key" type = "Hold" value = "0x52" />
+		<VKAction theme = "Keyboard letters" name = "s Key" type = "Hold" value = "0x53" />
+		<VKAction theme = "Keyboard letters" name = "t Key" type = "Hold" value = "0x54" />
+		<VKAction theme = "Keyboard letters" name = "u Key" type = "Hold" value = "0x55" />
+		<VKAction theme = "Keyboard letters" name = "v Key" type = "Hold" value = "0x56" />
+		<VKAction theme = "Keyboard letters" name = "w Key" type = "Hold" value = "0x57" />
+		<VKAction theme = "Keyboard letters" name = "z Key" type = "Hold" value = "0x5a" />
+		<VKAction theme = "Keyboard keys" name = "Left Windows Key" type = "Hold" value = "0x5b" />
+		<VKAction theme = "Keyboard keys" name = "Right Windows Key" type = "Hold" value = "0x5c" />
+		<VKAction theme = "Keyboard keys" name = "Applications Key" type = "Hold" value = "0x5d" />
+		<VKAction theme = "Numpad keys" name = "Numpad 0" type = "Hold" value = "0x60" />
+		<VKAction theme = "Numpad keys" name = "Numpad 1" type = "Hold" value = "0x61" />
+		<VKAction theme = "Numpad keys" name = "Numpad 2" type = "Hold" value = "0x62" />
+		<VKAction theme = "Numpad keys" name = "Numpad 3" type = "Hold" value = "0x63" />
+		<VKAction theme = "Numpad keys" name = "Numpad 4" type = "Hold" value = "0x64" />
+		<VKAction theme = "Numpad keys" name = "Numpad 5" type = "Hold" value = "0x65" />
+		<VKAction theme = "Numpad keys" name = "Numpad 6" type = "Hold" value = "0x66" />
+		<VKAction theme = "Numpad keys" name = "Numpad 7" type = "Hold" value = "0x67" />
+		<VKAction theme = "Numpad keys" name = "Numpad 8" type = "Hold" value = "0x68" />
+		<VKAction theme = "Numpad keys" name = "Numpad 9" type = "Hold" value = "0x69" />
+		<VKAction theme = "Numpad keys" name = "Multiply" type = "Hold" value = "0x6a" />
+		<VKAction theme = "Numpad keys" name = "Add" type = "Hold" value = "0x6b" />
+		<VKAction theme = "Numpad keys" name = "Separator" type = "Hold" value = "0x6c" />
+		<VKAction theme = "Numpad keys" name = "Subtract" type = "Hold" value = "0x6d" />
+		<VKAction theme = "Numpad keys" name = "Decimal" type = "Hold" value = "0x6e" />
+		<VKAction theme = "Numpad keys" name = "Divide" type = "Hold" value = "0x6f" />
+		<VKAction theme = "Function keys" name = "F1" type = "Hit" value = "0x7" />
+		<VKAction theme = "Function keys" name = "F2" type = "Hold" value = "0x71" />
+		<VKAction theme = "Function keys" name = "F3" type = "Hold" value = "0x72" />
+		<VKAction theme = "Function keys" name = "F4" type = "Hold" value = "0x73" />
+		<VKAction theme = "Function keys" name = "F5" type = "Hold" value = "0x74" />
+		<VKAction theme = "Function keys" name = "F6" type = "Hold" value = "0x75" />
+		<VKAction theme = "Function keys" name = "F7" type = "Hold" value = "0x76" />
+		<VKAction theme = "Function keys" name = "F8" type = "Hold" value = "0x77" />
+		<VKAction theme = "Function keys" name = "F9" type = "Hold" value = "0x78" />
+		<VKAction theme = "Function keys" name = "F10" type = "Hold" value = "0x79" />
+		<VKAction theme = "Function keys" name = "F11" type = "Hold" value = "0x7a" />
+		<VKAction theme = "Function keys" name = "F12" type = "Hold" value = "0x7b" />
+		<VKAction theme = "Function keys" name = "F13" type = "Hold" value = "0x7c" />
+		<VKAction theme = "Function keys" name = "F14" type = "Hold" value = "0x7d" />
+		<VKAction theme = "Function keys" name = "F15" type = "Hold" value = "0x7e" />
+		<VKAction theme = "Function keys" name = "F16" type = "Hold" value = "0x7f" />
+		<VKAction theme = "Function keys" name = "F17" type = "Hold" value = "0x80" />
+		<VKAction theme = "Function keys" name = "F18" type = "Hold" value = "0x81" />
+		<VKAction theme = "Function keys" name = "F19" type = "Hold" value = "0x82" />
+		<VKAction theme = "Function keys" name = "F20" type = "Hold" value = "0x83" />
+		<VKAction theme = "Function keys" name = "F21" type = "Hold" value = "0x84" />
+		<VKAction theme = "Function keys" name = "F22" type = "Hold" value = "0x85" />
+		<VKAction theme = "Function keys" name = "F23" type = "Hold" value = "0x86" />
+		<VKAction theme = "Function keys" name = "F24" type = "Hold" value = "0x87" />
+		<VKAction theme = "Keyboard keys" name = "Num Lock" type = "Hold" value = "0x90" />
+		<VKAction theme = "Keyboard keys" name = "Scroll Lock" type = "Hold" value = "0x91" />
+		<VKAction theme = "Keyboard keys" name = "Left Shift" type = "Hold" value = "0xa0" />
+		<VKAction theme = "Keyboard keys" name = "Right Shift" type = "Hold" value = "0xa1" />
+		<VKAction theme = "Keyboard keys" name = "Left Control" type = "Hold" value = "0xa2" />
+		<VKAction theme = "Keyboard keys" name = "Right Control" type = "Hold" value = "0xa3" />
+		<VKAction theme = "Keyboard keys" name = "Left Alt" type = "Hold" value = "0xa4" />
+		<VKAction theme = "Keyboard keys" name = "Right Alt" type = "Hold" value = "0xa5" />
+		<VKAction theme = "Keyboard letters" name = "y Key" type = "Hold" value = "0x59" />
+		<VKAction theme = "Keyboard letters" name = "x Key" type = "Hold" value = "0x58" />
+		<VKAction theme = "Winamp" name = "Play" type = "Hold" value = "0x58" />
+		<VKAction theme = "Winamp" name = "Previous" type = "Hold" value = "0x5a" />
+		<VKAction theme = "Winamp" name = "Pause" type = "Hold" value = "0x43" />
+		<VKAction theme = "Winamp" name = "Stop" type = "Hold" value = "0x56" />
+		<VKAction theme = "Winamp" name = "Next" type = "Hold" value = "0x42" />
+	</VKActions>
+	<MouseActions >
+		<MouseAction theme = "Absolute mouse movement" name = "Move Mouse Up Absolute" type = "Hold" direction = "0" absolute = "true" delay = "10" speed = "70" acceleration = "20" />
+		<MouseAction theme = "Absolute mouse movement" name = "Move Mouse Right Absolute" type = "Hold" direction = "90" absolute = "true" delay = "10" speed = "70" acceleration = "20" />
+		<MouseAction theme = "Absolute mouse movement" name = "Move Mouse Down Absolute" type = "Hold" direction = "180" absolute = "true" delay = "10" speed = "70" acceleration = "20" />
+		<MouseAction theme = "Absolute mouse movement" name = "Move Mouse Left Absolute" type = "Hold" direction = "270" absolute = "true" delay = "10" speed = "70" acceleration = "20" />
+		<MouseAction theme = "Mouse movement" name = "Move Mouse Up" type = "Hold" direction = "0" absolute = "false" delay = "10" speed = "70" acceleration = "50" />
+		<MouseAction theme = "Mouse movement" name = "Move Mouse Right" type = "Hold" direction = "90" absolute = "false" delay = "10" speed = "70" acceleration = "50" />
+		<MouseAction theme = "Mouse movement" name = "Move Mouse Down" type = "Hold" direction = "180" absolute = "false" delay = "10" speed = "70" acceleration = "50" />
+		<MouseAction theme = "Mouse movement" name = "Move Mouse Left" type = "Hold" direction = "270" absolute = "false" delay = "10" speed = "70" acceleration = "50" />
+		<MouseAction theme = "Mouse movement" name = "Move Mouse Left And Up" type = "Hold" direction = "315" absolute = "false" delay = "10" speed = "70" acceleration = "20" />
+		<MouseAction theme = "Mouse movement" name = "Move Mouse Right And Down" type = "Hold" direction = "135" absolute = "false" delay = "10" speed = "70" acceleration = "20" />
+	</MouseActions>
+	<MouseWheelActions >
+		<MouseWheelAction theme = "Mouse Wheel" name = "Scroll Up" type = "Hold" direction = "up" delay = "30" lines = "3" />
+		<MouseWheelAction theme = "Mouse Wheel" name = "Scroll Down" type = "Hold" direction = "down" delay = "30" lines = "3" />
+	</MouseWheelActions>
+	<ComplexActions >
+		<ComplexAction theme = "Mouse" name = "Left Mouse Button Double Click" type = "Hit" >
+			<CombinedAction theme = "Mouse" name = "Left Mouse Button" type = "Hit" />
+			<CombinedAction theme = "Mouse" name = "Left Mouse Button" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Mouse" name = "Right Mouse Button Double Click" type = "Hit" >
+			<CombinedAction theme = "Mouse" name = "Right Mouse Button" type = "Hit" />
+			<CombinedAction theme = "Mouse" name = "Right Mouse Button" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Keyboard shortcuts" name = "Internet Explorer" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Alt" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "e Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Keyboard shortcuts" name = "Outlook Express" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Alt" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "o Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Keyboard shortcuts" name = "Winamp" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Alt" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "w Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Windows operations" name = "Close Window" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Alt" type = "Hold" />
+			<CombinedAction theme = "Function keys" name = "F4" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Windows operations" name = "Task Manager" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Escape" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Windows operations" name = "Window Menu" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Alt" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Space" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Windows operations" name = "Minimize Window" type = "Hit" >
+			<CombinedAction theme = "Windows operations" name = "Window Menu" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "n Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Keyboard shortcuts" name = "Screen Saver" type = "Hit" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Alt" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "b Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Web Addresses" name = "www" type = "Hit" >
+			<CombinedAction theme = "Keyboard letters" name = "w Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "w Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "w Key" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Web Addresses" name = ".co.il" type = "Hold" >
+			<CombinedAction theme = "Numpad keys" name = "Decimal" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "c Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "o Key" type = "Hit" />
+			<CombinedAction theme = "Numpad keys" name = "Decimal" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "i Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "l Key" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Web Addresses" name = "Go To Plonter" type = "Hold" >
+			<CombinedAction theme = "Web Addresses" name = "www" type = "Hit" />
+			<CombinedAction theme = "Numpad keys" name = "Decimal" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "p Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "l Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "o Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "n Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "t Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "e Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "r Key" type = "Hit" />
+			<CombinedAction theme = "Web Addresses" name = ".co.il" type = "Hit" />
+			<CombinedAction theme = "Keyboard keys" name = "Enter" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Web Addresses" name = "Bank Hapoalim" type = "Hold" >
+			<CombinedAction theme = "Web Addresses" name = "www" type = "Hit" />
+			<CombinedAction theme = "Numpad keys" name = "Decimal" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "b Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "a Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "n Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "k Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "h Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "a Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "p Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "o Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "a Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "l Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "i Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "m Key" type = "Hit" />
+			<CombinedAction theme = "Web Addresses" name = ".co.il" type = "Hit" />
+			<CombinedAction theme = "Keyboard keys" name = "Enter" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Web Addresses" name = "Walla" type = "Hold" >
+			<CombinedAction theme = "Web Addresses" name = "www" type = "Hit" />
+			<CombinedAction theme = "Numpad keys" name = "Decimal" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "w Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "a Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "l Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "l Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "a Key" type = "Hit" />
+			<CombinedAction theme = "Web Addresses" name = ".co.il" type = "Hit" />
+			<CombinedAction theme = "Keyboard keys" name = "Enter" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Winamp" name = "Stop w/ fadeout" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "v Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Winamp" name = "Stop after current" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "v Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Windows operations" name = "Start Menu" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Escape" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "Hold 'Shift' and write 'offer'" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "o Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "f Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "f Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "e Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "r Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard keys" name = "Space" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "Write 'atzitz'" type = "Hold" >
+			<CombinedAction theme = "Keyboard letters" name = "a Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "t Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "z Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "i Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "t Key" type = "Hit" />
+			<CombinedAction theme = "Keyboard letters" name = "z Key" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "Make Bold" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "b Key" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "Full Example" type = "Hold" >
+			<CombinedAction theme = "Example" name = "Make Bold" type = "Hit" />
+			<CombinedAction theme = "Example" name = "Hold 'Shift' and write 'offer'" type = "Hit" />
+			<CombinedAction theme = "Example" name = "Write 'atzitz'" type = "Hit" />
+			<CombinedAction theme = "Example" name = "Make Bold" type = "Hit" />
+		</ComplexAction>
+		<ComplexAction theme = "Winamp" name = "Start/Stop plug-in" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Control" type = "Hold" />
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "k Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "A" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "a Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "B" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "b Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "C" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "c Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "D" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "d Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "E" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "e Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "F" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "f Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "G" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "g Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "H" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "h Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "I" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "i Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "J" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "j Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "K" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "k Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "mM" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "m Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "M" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "m Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "O" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "o Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "N" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "n Key" type = "Hold" />
+		</ComplexAction>
+		<ComplexAction theme = "Example" name = "L" type = "Hold" >
+			<CombinedAction theme = "Keyboard keys" name = "Shift" type = "Hold" />
+			<CombinedAction theme = "Keyboard letters" name = "l Key" type = "Hold" />
+		</ComplexAction>
+	</ComplexActions>
+</Actions>

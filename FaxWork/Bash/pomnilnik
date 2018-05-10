@@ -1,0 +1,24 @@
+#!/bin/bash
+
+sumUser=0
+sumAll=0
+
+userPidList=`ps -eo user,pid --sort user | sed -e 's/  */:/' | tail -n +2`
+curUser=`echo "$userPidList" | head -1 | cut -d ":" -f1`
+
+for pidUser in $userPidList; do
+	cUsr=`echo $pidUser | cut -d ":" -f1`
+	cPid=`echo $pidUser | cut -d ":" -f2`
+	if [ "$curUser" != "$cUsr" ]; then
+		if [ "$sumUser" != "0" ]; then
+			echo -e "$curUser: $((sumUser/1024))MB"
+		fi
+		sumAll=$((sumAll + sumUser))
+		sumUser=0
+		curUser=$cUsr
+	fi
+	get=`pmap "$cPid" | tail -1 | sed 's/[^0-9]//g'`
+	sumUser=$((sumUser + get))
+done
+
+echo "skupaj: $(($sumAll/1024))MB"

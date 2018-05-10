@@ -1,0 +1,108 @@
+<Joystick delay = "10" ID = "0" name = "Microsoft PC-joystick driver" >
+	<Buttons >
+		<Button number = "1" >
+			<Actions >
+				<Action number = "0" theme = "Mouse" name = "Left Mouse Button" />
+				<Action number = "1" theme = "Winamp" name = "Play" />
+				<Action number = "3" theme = "Example" name = "Full Example" />
+				<Action number = "2" theme = "Winamp" name = "Previous" />
+			</Actions>
+		</Button>
+		<Button number = "2" >
+			<Actions >
+				<Action number = "0" theme = "Mouse" name = "Right Mouse Button" />
+				<Action number = "1" theme = "Winamp" name = "Pause" />
+				<Action number = "2" theme = "Winamp" name = "Start/Stop plug-in" />
+				<Action number = "3" theme = "Keyboard keys" name = "Delete" />
+			</Actions>
+		</Button>
+		<Button number = "3" >
+			<Actions >
+				<Action number = "0" theme = "Keyboard keys" name = "Enter" />
+				<Action number = "1" theme = "Winamp" name = "Stop" />
+				<Action number = "2" theme = "Winamp" name = "Next" />
+			</Actions>
+		</Button>
+		<Button number = "4" >
+			<Actions >
+				<Action number = "0" theme = "Mouse" name = "Left Mouse Button Double Click" />
+				<Action number = "1" theme = "Keyboard shortcuts" name = "Internet Explorer" />
+			</Actions>
+		</Button>
+		<Button number = "5" >
+			<Actions >
+				<Action number = "0" theme = "Mouse" name = "Right Mouse Button Double Click" />
+				<Action number = "1" theme = "Keyboard shortcuts" name = "Outlook Express" />
+			</Actions>
+		</Button>
+		<Button number = "6" >
+			<Actions >
+				<Action number = "0" theme = "Keyboard shortcuts" name = "Screen Saver" />
+				<Action number = "1" theme = "Keyboard shortcuts" name = "Winamp" />
+				<Action number = "3" theme = "Keyboard keys" name = "Delete" />
+			</Actions>
+		</Button>
+		<Button number = "9" >
+			<Actions >
+				<Action number = "0" theme = "Windows operations" name = "Start Menu" />
+				<Action number = "1" theme = "Windows operations" name = "Close Window" />
+				<Action number = "2" theme = "Windows operations" name = "Minimize Window" />
+				<Action number = "3" theme = "Windows operations" name = "Task Manager" />
+			</Actions>
+		</Button>
+		<Button number = "7" >
+			<Actions >
+				<Action number = "1" theme = "Keyboard keys" name = "Alt" />
+				<Action number = "3" theme = "Keyboard keys" name = "Escape" />
+			</Actions>
+		</Button>
+		<Button number = "10" >
+			<Actions >
+				<Action number = "1" theme = "Keyboard keys" name = "Control" />
+			</Actions>
+		</Button>
+		<Button number = "8" >
+			<Actions >
+				<Action number = "1" theme = "Keyboard keys" name = "Tab" />
+			</Actions>
+		</Button>
+	</Buttons>
+	<Axes >
+		<Axis name = "X Axis" sensitivity = "100" threshold = "1000" type = "Horizontal" >
+			<Direction name = "Left" >
+				<Actions >
+					<Action number = "1" theme = "Keyboard keys" name = "Left Arrow" />
+					<Action number = "0" theme = "Mouse movement" name = "Move Mouse Left" />
+				</Actions>
+			</Direction>
+			<Direction name = "Right" >
+				<Actions >
+					<Action number = "1" theme = "Keyboard keys" name = "Right Arrow" />
+					<Action number = "0" theme = "Mouse movement" name = "Move Mouse Right" />
+				</Actions>
+			</Direction>
+		</Axis>
+		<Axis name = "Y Axis" sensitivity = "100" threshold = "1000" type = "Vertical" >
+			<Direction name = "Up" >
+				<Actions >
+					<Action number = "1" theme = "Keyboard keys" name = "Up Arrow" />
+					<Action number = "0" theme = "Mouse movement" name = "Move Mouse Up" />
+					<Action number = "3" theme = "Mouse Wheel" name = "Scroll Up" />
+				</Actions>
+			</Direction>
+			<Direction name = "Down" >
+				<Actions >
+					<Action number = "1" theme = "Keyboard keys" name = "Down Arrow" />
+					<Action number = "0" theme = "Mouse movement" name = "Move Mouse Down" />
+					<Action number = "3" theme = "Mouse Wheel" name = "Scroll Down" />
+				</Actions>
+			</Direction>
+		</Axis>
+		<Axis name = "Z Axis" type = "Horizontal" />
+	</Axes>
+	<ShiftButtons >
+		<ShiftButton buttonNumber = "10" />
+		<ShiftButton buttonNumber = "7" />
+		<ShiftButton buttonNumber = "8" />
+	</ShiftButtons>
+</Joystick>
